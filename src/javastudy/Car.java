@@ -1,7 +1,10 @@
 package javastudy;
 
 public class Car {
-	public void print() {
-		System.out.print("성공^^");
-	}
+	String name;
+	int number;
+
+//	public void print() {
+//		System.out.print("성공^^");
 }
+
