@@ -7,5 +7,8 @@ public class StringMethodExam {
 		String str = "hello";
 		System.out.println(str.length());
 		System.out.println(str.concat(" world"));
+		System.out.println(str);
+		str = str.concat(" world");
+		System.out.println(str);
 	}
 }
