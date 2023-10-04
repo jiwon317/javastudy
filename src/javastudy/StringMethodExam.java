@@ -6,5 +6,6 @@ public class StringMethodExam {
 //		String str = new String("hello");
 		String str = "hello";
 		System.out.println(str.length());
+		System.out.println(str.concat(" world"));
 	}
 }
