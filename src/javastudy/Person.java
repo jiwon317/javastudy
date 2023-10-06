@@ -1,10 +1,10 @@
 package javastudy;
 
 public class Person {
-	
+	String name;
 	int age;
-	
-	public Person(int a) {
-		age = a;
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
 	}
 }
